@@ -1,0 +1,2637 @@
+body {
+   overflow-x: hidden;
+  }
+  .heartBeatContainer {
+    /* border: 1px solid #000; */
+    /* overflow-x: hidden; */
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    /* min-height: 200px; */
+    height: auto;
+    filter: drop-shadow(0 0 15px red);
+    stroke: red;
+    stroke-width: 1px;
+    /* margin: 0 auto; */
+    /* background: #323232; */
+  }
+  .pulse-basic,
+  .pulse,
+  .pulse-heartBeatContainer .follow1,
+  .pulse-heartBeatContainer .follow2,
+  .pulse-heartBeatContainer .follow3,
+  .pulse-heartBeatContainer .follow4,
+  .pulse-heartBeatContainer .follow5,
+  .pulse-heartBeatContainer .follow6,
+  .pulse-heartBeatContainer .follow7,
+  .pulse-heartBeatContainer .follow8,
+  .pulse-heartBeatContainer .follow9,
+  .pulse-heartBeatContainer .follow10,
+  .pulse-heartBeatContainer .follow11,
+  .pulse-heartBeatContainer .follow12,
+  .pulse-heartBeatContainer .follow13,
+  .pulse-heartBeatContainer .follow14,
+  .pulse-heartBeatContainer .follow15,
+  .pulse-heartBeatContainer .follow16,
+  .pulse-heartBeatContainer .follow17,
+  .pulse-heartBeatContainer .follow18,
+  .pulse-heartBeatContainer .follow19,
+  .pulse-heartBeatContainer .follow20,
+  .pulse-heartBeatContainer .follow21,
+  .pulse-heartBeatContainer .follow22,
+  .pulse-heartBeatContainer .follow23,
+  .pulse-heartBeatContainer .follow24,
+  .pulse-heartBeatContainer .follow25,
+  .pulse-heartBeatContainer .follow26,
+  .pulse-heartBeatContainer .follow27,
+  .pulse-heartBeatContainer .follow28,
+  .pulse-heartBeatContainer .follow29,
+  .pulse-heartBeatContainer .follow30,
+  .pulse-heartBeatContainer .follow31,
+  .pulse-heartBeatContainer .follow32,
+  .pulse-heartBeatContainer .follow33,
+  .pulse-heartBeatContainer .follow34,
+  .pulse-heartBeatContainer .follow35,
+  .pulse-heartBeatContainer .follow36,
+  .pulse-heartBeatContainer .follow37,
+  .pulse-heartBeatContainer .follow38,
+  .pulse-heartBeatContainer .follow39,
+  .pulse-heartBeatContainer .follow40,
+  .pulse-heartBeatContainer .follow41,
+  .pulse-heartBeatContainer .follow42,
+  .pulse-heartBeatContainer .follow43,
+  .pulse-heartBeatContainer .follow44,
+  .pulse-heartBeatContainer .follow45,
+  .pulse-heartBeatContainer .follow46,
+  .pulse-heartBeatContainer .follow47,
+  .pulse-heartBeatContainer .follow48,
+  .pulse-heartBeatContainer .follow49,
+  .pulse-heartBeatContainer .follow50,
+  .pulse-heartBeatContainer .follow51,
+  .pulse-heartBeatContainer .follow52,
+  .pulse-heartBeatContainer .follow53,
+  .pulse-heartBeatContainer .follow54,
+  .pulse-heartBeatContainer .follow55,
+  .pulse-heartBeatContainer .follow56,
+  .pulse-heartBeatContainer .follow57,
+  .pulse-heartBeatContainer .follow58,
+  .pulse-heartBeatContainer .follow59,
+  .pulse-heartBeatContainer .follow60,
+  .pulse-heartBeatContainer .follow61,
+  .pulse-heartBeatContainer .follow62,
+  .pulse-heartBeatContainer .follow63,
+  .pulse-heartBeatContainer .follow64,
+  .pulse-heartBeatContainer .follow65,
+  .pulse-heartBeatContainer .follow66,
+  .pulse-heartBeatContainer .follow67,
+  .pulse-heartBeatContainer .follow68,
+  .pulse-heartBeatContainer .follow69,
+  .pulse-heartBeatContainer .follow70,
+  .pulse-heartBeatContainer .follow71,
+  .pulse-heartBeatContainer .follow72,
+  .pulse-heartBeatContainer .follow73,
+  .pulse-heartBeatContainer .follow74,
+  .pulse-heartBeatContainer .follow75,
+  .pulse-heartBeatContainer .follow76,
+  .pulse-heartBeatContainer .follow77,
+  .pulse-heartBeatContainer .follow78,
+  .pulse-heartBeatContainer .follow79,
+  .pulse-heartBeatContainer .follow80,
+  .pulse-heartBeatContainer .follow81,
+  .pulse-heartBeatContainer .follow82,
+  .pulse-heartBeatContainer .follow83,
+  .pulse-heartBeatContainer .follow84,
+  .pulse-heartBeatContainer .follow85,
+  .pulse-heartBeatContainer .follow86,
+  .pulse-heartBeatContainer .follow87,
+  .pulse-heartBeatContainer .follow88,
+  .pulse-heartBeatContainer .follow89,
+  .pulse-heartBeatContainer .follow90,
+  .pulse-heartBeatContainer .follow91,
+  .pulse-heartBeatContainer .follow92,
+  .pulse-heartBeatContainer .follow93,
+  .pulse-heartBeatContainer .follow94,
+  .pulse-heartBeatContainer .follow95,
+  .pulse-heartBeatContainer .follow96,
+  .pulse-heartBeatContainer .follow97,
+  .pulse-heartBeatContainer .follow98,
+  .pulse-heartBeatContainer .follow99,
+  .pulse-heartBeatContainer .follow100,
+  .pulse-heartBeatContainer .follow101,
+  .pulse-heartBeatContainer .follow102,
+  .pulse-heartBeatContainer .follow103,
+  .pulse-heartBeatContainer .follow104,
+  .pulse-heartBeatContainer .follow105,
+  .pulse-heartBeatContainer .follow106,
+  .pulse-heartBeatContainer .follow107,
+  .pulse-heartBeatContainer .follow108,
+  .pulse-heartBeatContainer .follow109,
+  .pulse-heartBeatContainer .follow110,
+  .pulse-heartBeatContainer .follow111,
+  .pulse-heartBeatContainer .follow112,
+  .pulse-heartBeatContainer .follow113,
+  .pulse-heartBeatContainer .follow114,
+  .pulse-heartBeatContainer .follow115,
+  .pulse-heartBeatContainer .follow116,
+  .pulse-heartBeatContainer .follow117,
+  .pulse-heartBeatContainer .follow118,
+  .pulse-heartBeatContainer .follow119,
+  .pulse-heartBeatContainer .follow120,
+  .pulse-heartBeatContainer .follow121,
+  .pulse-heartBeatContainer .follow122,
+  .pulse-heartBeatContainer .follow123,
+  .pulse-heartBeatContainer .follow124,
+  .pulse-heartBeatContainer .follow125,
+  .pulse-heartBeatContainer .follow126,
+  .pulse-heartBeatContainer .follow127,
+  .pulse-heartBeatContainer .follow128,
+  .pulse-heartBeatContainer .follow129,
+  .pulse-heartBeatContainer .follow130,
+  .pulse-heartBeatContainer .follow131,
+  .pulse-heartBeatContainer .follow132,
+  .pulse-heartBeatContainer .follow133,
+  .pulse-heartBeatContainer .follow134,
+  .pulse-heartBeatContainer .follow135,
+  .pulse-heartBeatContainer .follow136,
+  .pulse-heartBeatContainer .follow137,
+  .pulse-heartBeatContainer .follow138,
+  .pulse-heartBeatContainer .follow139,
+  .pulse-heartBeatContainer .follow140,
+  .pulse-heartBeatContainer .follow141,
+  .pulse-heartBeatContainer .follow142,
+  .pulse-heartBeatContainer .follow143,
+  .pulse-heartBeatContainer .follow144,
+  .pulse-heartBeatContainer .follow145,
+  .pulse-heartBeatContainer .follow146,
+  .pulse-heartBeatContainer .follow147,
+  .pulse-heartBeatContainer .follow148,
+  .pulse-heartBeatContainer .follow149,
+  .pulse-heartBeatContainer .follow150,
+  .pulse-heartBeatContainer .follow151,
+  .pulse-heartBeatContainer .follow152,
+  .pulse-heartBeatContainer .follow153,
+  .pulse-heartBeatContainer .follow154,
+  .pulse-heartBeatContainer .follow155,
+  .pulse-heartBeatContainer .follow156,
+  .pulse-heartBeatContainer .follow157,
+  .pulse-heartBeatContainer .follow158,
+  .pulse-heartBeatContainer .follow159,
+  .pulse-heartBeatContainer .follow160,
+  .pulse-heartBeatContainer .follow161,
+  .pulse-heartBeatContainer .follow162,
+  .pulse-heartBeatContainer .follow163,
+  .pulse-heartBeatContainer .follow164,
+  .pulse-heartBeatContainer .follow165,
+  .pulse-heartBeatContainer .follow166,
+  .pulse-heartBeatContainer .follow167,
+  .pulse-heartBeatContainer .follow168,
+  .pulse-heartBeatContainer .follow169,
+  .pulse-heartBeatContainer .follow170,
+  .pulse-heartBeatContainer .follow171,
+  .pulse-heartBeatContainer .follow172,
+  .pulse-heartBeatContainer .follow173,
+  .pulse-heartBeatContainer .follow174,
+  .pulse-heartBeatContainer .follow175,
+  .pulse-heartBeatContainer .follow176,
+  .pulse-heartBeatContainer .follow177,
+  .pulse-heartBeatContainer .follow178,
+  .pulse-heartBeatContainer .follow179,
+  .pulse-heartBeatContainer .follow180,
+  .pulse-heartBeatContainer .follow181,
+  .pulse-heartBeatContainer .follow182,
+  .pulse-heartBeatContainer .follow183,
+  .pulse-heartBeatContainer .follow184,
+  .pulse-heartBeatContainer .follow185,
+  .pulse-heartBeatContainer .follow186,
+  .pulse-heartBeatContainer .follow187,
+  .pulse-heartBeatContainer .follow188,
+  .pulse-heartBeatContainer .follow189,
+  .pulse-heartBeatContainer .follow190,
+  .pulse-heartBeatContainer .follow191,
+  .pulse-heartBeatContainer .follow192,
+  .pulse-heartBeatContainer .follow193,
+  .pulse-heartBeatContainer .follow194,
+  .pulse-heartBeatContainer .follow195,
+  .pulse-heartBeatContainer .follow196,
+  .pulse-heartBeatContainer .follow197,
+  .pulse-heartBeatContainer .follow198,
+  .pulse-heartBeatContainer .follow199,
+  .pulse-heartBeatContainer .follow200,
+  .pulse-heartBeatContainer .follow201,
+  .pulse-heartBeatContainer .follow202,
+  .pulse-heartBeatContainer .follow203,
+  .pulse-heartBeatContainer .follow204,
+  .pulse-heartBeatContainer .follow205,
+  .pulse-heartBeatContainer .follow206,
+  .pulse-heartBeatContainer .follow207,
+  .pulse-heartBeatContainer .follow208,
+  .pulse-heartBeatContainer .follow209,
+  .pulse-heartBeatContainer .follow210,
+  .pulse-heartBeatContainer .follow211,
+  .pulse-heartBeatContainer .follow212,
+  .pulse-heartBeatContainer .follow213,
+  .pulse-heartBeatContainer .follow214,
+  .pulse-heartBeatContainer .follow215,
+  .pulse-heartBeatContainer .follow216,
+  .pulse-heartBeatContainer .follow217,
+  .pulse-heartBeatContainer .follow218,
+  .pulse-heartBeatContainer .follow219,
+  .pulse-heartBeatContainer .follow220,
+  .pulse-heartBeatContainer .follow221,
+  .pulse-heartBeatContainer .follow222,
+  .pulse-heartBeatContainer .follow223,
+  .pulse-heartBeatContainer .follow224,
+  .pulse-heartBeatContainer .follow225,
+  .pulse-heartBeatContainer .follow226,
+  .pulse-heartBeatContainer .follow227,
+  .pulse-heartBeatContainer .follow228,
+  .pulse-heartBeatContainer .follow229,
+  .pulse-heartBeatContainer .follow230,
+  .pulse-heartBeatContainer .follow231,
+  .pulse-heartBeatContainer .follow232,
+  .pulse-heartBeatContainer .follow233,
+  .pulse-heartBeatContainer .follow234,
+  .pulse-heartBeatContainer .follow235,
+  .pulse-heartBeatContainer .follow236,
+  .pulse-heartBeatContainer .follow237,
+  .pulse-heartBeatContainer .follow238,
+  .pulse-heartBeatContainer .follow239,
+  .pulse-heartBeatContainer .follow240,
+  .pulse-heartBeatContainer .follow241,
+  .pulse-heartBeatContainer .follow242,
+  .pulse-heartBeatContainer .follow243,
+  .pulse-heartBeatContainer .follow244,
+  .pulse-heartBeatContainer .follow245,
+  .pulse-heartBeatContainer .follow246,
+  .pulse-heartBeatContainer .follow247,
+  .pulse-heartBeatContainer .follow248,
+  .pulse-heartBeatContainer .follow249,
+  .pulse-heartBeatContainer .follow250,
+  .pulse-heartBeatContainer .follow251,
+  .pulse-heartBeatContainer .follow252,
+  .pulse-heartBeatContainer .follow253,
+  .pulse-heartBeatContainer .follow254,
+  .pulse-heartBeatContainer .follow255,
+  .pulse-heartBeatContainer .follow256,
+  .pulse-heartBeatContainer .follow257,
+  .pulse-heartBeatContainer .follow258,
+  .pulse-heartBeatContainer .follow259,
+  .pulse-heartBeatContainer .follow260,
+  .pulse-heartBeatContainer .follow261,
+  .pulse-heartBeatContainer .follow262,
+  .pulse-heartBeatContainer .follow263,
+  .pulse-heartBeatContainer .follow264,
+  .pulse-heartBeatContainer .follow265,
+  .pulse-heartBeatContainer .follow266,
+  .pulse-heartBeatContainer .follow267,
+  .pulse-heartBeatContainer .follow268,
+  .pulse-heartBeatContainer .follow269,
+  .pulse-heartBeatContainer .follow270,
+  .pulse-heartBeatContainer .follow271,
+  .pulse-heartBeatContainer .follow272,
+  .pulse-heartBeatContainer .follow273,
+  .pulse-heartBeatContainer .follow274,
+  .pulse-heartBeatContainer .follow275,
+  .pulse-heartBeatContainer .follow276,
+  .pulse-heartBeatContainer .follow277,
+  .pulse-heartBeatContainer .follow278,
+  .pulse-heartBeatContainer .follow279,
+  .pulse-heartBeatContainer .follow280,
+  .pulse-heartBeatContainer .follow281,
+  .pulse-heartBeatContainer .follow282,
+  .pulse-heartBeatContainer .follow283,
+  .pulse-heartBeatContainer .follow284,
+  .pulse-heartBeatContainer .follow285,
+  .pulse-heartBeatContainer .follow286,
+  .pulse-heartBeatContainer .follow287,
+  .pulse-heartBeatContainer .follow288,
+  .pulse-heartBeatContainer .follow289,
+  .pulse-heartBeatContainer .follow290,
+  .pulse-heartBeatContainer .follow291,
+  .pulse-heartBeatContainer .follow292,
+  .pulse-heartBeatContainer .follow293,
+  .pulse-heartBeatContainer .follow294,
+  .pulse-heartBeatContainer .follow295,
+  .pulse-heartBeatContainer .follow296,
+  .pulse-heartBeatContainer .follow297,
+  .pulse-heartBeatContainer .follow298,
+  .pulse-heartBeatContainer .follow299,
+  .pulse-heartBeatContainer .follow300,
+  .pulse-heartBeatContainer .follow301,
+  .pulse-heartBeatContainer .follow302,
+  .pulse-heartBeatContainer .follow303,
+  .pulse-heartBeatContainer .follow304,
+  .pulse-heartBeatContainer .follow305,
+  .pulse-heartBeatContainer .follow306,
+  .pulse-heartBeatContainer .follow307,
+  .pulse-heartBeatContainer .follow308,
+  .pulse-heartBeatContainer .follow309,
+  .pulse-heartBeatContainer .follow310,
+  .pulse-heartBeatContainer .follow311,
+  .pulse-heartBeatContainer .follow312,
+  .pulse-heartBeatContainer .follow313,
+  .pulse-heartBeatContainer .follow314,
+  .pulse-heartBeatContainer .follow315,
+  .pulse-heartBeatContainer .follow316,
+  .pulse-heartBeatContainer .follow317,
+  .pulse-heartBeatContainer .follow318,
+  .pulse-heartBeatContainer .follow319,
+  .pulse-heartBeatContainer .follow320,
+  .pulse-heartBeatContainer .follow321,
+  .pulse-heartBeatContainer .follow322,
+  .pulse-heartBeatContainer .follow323,
+  .pulse-heartBeatContainer .follow324,
+  .pulse-heartBeatContainer .follow325,
+  .pulse-heartBeatContainer .follow326,
+  .pulse-heartBeatContainer .follow327,
+  .pulse-heartBeatContainer .follow328,
+  .pulse-heartBeatContainer .follow329,
+  .pulse-heartBeatContainer .follow330,
+  .pulse-heartBeatContainer .follow331,
+  .pulse-heartBeatContainer .follow332,
+  .pulse-heartBeatContainer .follow333,
+  .pulse-heartBeatContainer .follow334,
+  .pulse-heartBeatContainer .follow335,
+  .pulse-heartBeatContainer .follow336,
+  .pulse-heartBeatContainer .follow337,
+  .pulse-heartBeatContainer .follow338,
+  .pulse-heartBeatContainer .follow339,
+  .pulse-heartBeatContainer .follow340,
+  .pulse-heartBeatContainer .follow341,
+  .pulse-heartBeatContainer .follow342,
+  .pulse-heartBeatContainer .follow343,
+  .pulse-heartBeatContainer .follow344,
+  .pulse-heartBeatContainer .follow345,
+  .pulse-heartBeatContainer .follow346,
+  .pulse-heartBeatContainer .follow347,
+  .pulse-heartBeatContainer .follow348,
+  .pulse-heartBeatContainer .follow349,
+  .pulse-heartBeatContainer .follow350,
+  .pulse-heartBeatContainer .follow351,
+  .pulse-heartBeatContainer .follow352,
+  .pulse-heartBeatContainer .follow353,
+  .pulse-heartBeatContainer .follow354,
+  .pulse-heartBeatContainer .follow355,
+  .pulse-heartBeatContainer .follow356,
+  .pulse-heartBeatContainer .follow357,
+  .pulse-heartBeatContainer .follow358,
+  .pulse-heartBeatContainer .follow359,
+  .pulse-heartBeatContainer .follow360,
+  .pulse-heartBeatContainer .follow361,
+  .pulse-heartBeatContainer .follow362,
+  .pulse-heartBeatContainer .follow363,
+  .pulse-heartBeatContainer .follow364,
+  .pulse-heartBeatContainer .follow365,
+  .pulse-heartBeatContainer .follow366,
+  .pulse-heartBeatContainer .follow367,
+  .pulse-heartBeatContainer .follow368,
+  .pulse-heartBeatContainer .follow369,
+  .pulse-heartBeatContainer .follow370,
+  .pulse-heartBeatContainer .follow371,
+  .pulse-heartBeatContainer .follow372,
+  .pulse-heartBeatContainer .follow373,
+  .pulse-heartBeatContainer .follow374,
+  .pulse-heartBeatContainer .follow375,
+  .pulse-heartBeatContainer .follow376,
+  .pulse-heartBeatContainer .follow377,
+  .pulse-heartBeatContainer .follow378,
+  .pulse-heartBeatContainer .follow379,
+  .pulse-heartBeatContainer .follow380,
+  .pulse-heartBeatContainer .follow381,
+  .pulse-heartBeatContainer .follow382,
+  .pulse-heartBeatContainer .follow383,
+  .pulse-heartBeatContainer .follow384,
+  .pulse-heartBeatContainer .follow385,
+  .pulse-heartBeatContainer .follow386,
+  .pulse-heartBeatContainer .follow387,
+  .pulse-heartBeatContainer .follow388,
+  .pulse-heartBeatContainer .follow389,
+  .pulse-heartBeatContainer .follow390,
+  .pulse-heartBeatContainer .follow391,
+  .pulse-heartBeatContainer .follow392,
+  .pulse-heartBeatContainer .follow393,
+  .pulse-heartBeatContainer .follow394,
+  .pulse-heartBeatContainer .follow395,
+  .pulse-heartBeatContainer .follow396,
+  .pulse-heartBeatContainer .follow397,
+  .pulse-heartBeatContainer .follow398,
+  .pulse-heartBeatContainer .follow399,
+  .pulse-heartBeatContainer .follow400 {
+    background: white;
+    /* border: 1px solid black; */
+    width: 8px;
+    height: 7px;
+    position: absolute;
+    top: 100px;
+    /* filter: drop-shadow(0 0 2px red); */
+  }
+  .pulse {
+    animation: pulse 7s linear infinite 0s;
+  }
+  .pulse-heartBeatContainer .follow1 {
+    
+    animation: pulse 7s linear infinite 0.006666666666667s;
+  }
+  .pulse-heartBeatContainer .follow2 {
+    
+    animation: pulse 7s linear infinite 0.013333333333333s;
+  }
+  .pulse-heartBeatContainer .follow3 {
+    
+    animation: pulse 7s linear infinite 0.02s;
+  }
+  .pulse-heartBeatContainer .follow4 {
+    
+    animation: pulse 7s linear infinite 0.026666666666667s;
+  }
+  .pulse-heartBeatContainer .follow5 {
+    
+    animation: pulse 7s linear infinite 0.033333333333333s;
+  }
+  .pulse-heartBeatContainer .follow6 {
+    
+    animation: pulse 7s linear infinite 0.04s;
+  }
+  .pulse-heartBeatContainer .follow7 {
+    
+    animation: pulse 7s linear infinite 0.046666666666667s;
+  }
+  .pulse-heartBeatContainer .follow8 {
+    
+    animation: pulse 7s linear infinite 0.053333333333333s;
+  }
+  .pulse-heartBeatContainer .follow9 {
+    
+    animation: pulse 7s linear infinite 0.06s;
+  }
+  .pulse-heartBeatContainer .follow10 {
+    
+    animation: pulse 7s linear infinite 0.066666666666667s;
+  }
+  .pulse-heartBeatContainer .follow11 {
+    
+    animation: pulse 7s linear infinite 0.073333333333333s;
+  }
+  .pulse-heartBeatContainer .follow12 {
+    
+    animation: pulse 7s linear infinite 0.08s;
+  }
+  .pulse-heartBeatContainer .follow13 {
+    
+    animation: pulse 7s linear infinite 0.086666666666667s;
+  }
+  .pulse-heartBeatContainer .follow14 {
+    
+    animation: pulse 7s linear infinite 0.093333333333333s;
+  }
+  .pulse-heartBeatContainer .follow15 {
+    
+    animation: pulse 7s linear infinite 0.1s;
+  }
+  .pulse-heartBeatContainer .follow16 {
+    
+    animation: pulse 7s linear infinite 0.106666666666667s;
+  }
+  .pulse-heartBeatContainer .follow17 {
+    
+    animation: pulse 7s linear infinite 0.113333333333333s;
+  }
+  .pulse-heartBeatContainer .follow18 {
+    
+    animation: pulse 7s linear infinite 0.12s;
+  }
+  .pulse-heartBeatContainer .follow19 {
+    
+    animation: pulse 7s linear infinite 0.126666666666667s;
+  }
+  .pulse-heartBeatContainer .follow20 {
+    
+    animation: pulse 7s linear infinite 0.133333333333333s;
+  }
+  .pulse-heartBeatContainer .follow21 {
+    
+    animation: pulse 7s linear infinite 0.14s;
+  }
+  .pulse-heartBeatContainer .follow22 {
+    
+    animation: pulse 7s linear infinite 0.146666666666667s;
+  }
+  .pulse-heartBeatContainer .follow23 {
+    
+    animation: pulse 7s linear infinite 0.153333333333333s;
+  }
+  .pulse-heartBeatContainer .follow24 {
+    
+    animation: pulse 7s linear infinite 0.16s;
+  }
+  .pulse-heartBeatContainer .follow25 {
+    
+    animation: pulse 7s linear infinite 0.166666666666667s;
+  }
+  .pulse-heartBeatContainer .follow26 {
+    
+    animation: pulse 7s linear infinite 0.173333333333333s;
+  }
+  .pulse-heartBeatContainer .follow27 {
+    
+    animation: pulse 7s linear infinite 0.18s;
+  }
+  .pulse-heartBeatContainer .follow28 {
+    
+    animation: pulse 7s linear infinite 0.186666666666667s;
+  }
+  .pulse-heartBeatContainer .follow29 {
+    
+    animation: pulse 7s linear infinite 0.193333333333333s;
+  }
+  .pulse-heartBeatContainer .follow30 {
+    
+    animation: pulse 7s linear infinite 0.2s;
+  }
+  .pulse-heartBeatContainer .follow31 {
+    
+    animation: pulse 7s linear infinite 0.206666666666667s;
+  }
+  .pulse-heartBeatContainer .follow32 {
+    
+    animation: pulse 7s linear infinite 0.213333333333333s;
+  }
+  .pulse-heartBeatContainer .follow33 {
+    
+    animation: pulse 7s linear infinite 0.22s;
+  }
+  .pulse-heartBeatContainer .follow34 {
+    
+    animation: pulse 7s linear infinite 0.226666666666667s;
+  }
+  .pulse-heartBeatContainer .follow35 {
+    
+    animation: pulse 7s linear infinite 0.233333333333333s;
+  }
+  .pulse-heartBeatContainer .follow36 {
+    
+    animation: pulse 7s linear infinite 0.24s;
+  }
+  .pulse-heartBeatContainer .follow37 {
+    
+    animation: pulse 7s linear infinite 0.246666666666667s;
+  }
+  .pulse-heartBeatContainer .follow38 {
+    
+    animation: pulse 7s linear infinite 0.253333333333333s;
+  }
+  .pulse-heartBeatContainer .follow39 {
+    
+    animation: pulse 7s linear infinite 0.26s;
+  }
+  .pulse-heartBeatContainer .follow40 {
+    
+    animation: pulse 7s linear infinite 0.266666666666667s;
+  }
+  .pulse-heartBeatContainer .follow41 {
+    
+    animation: pulse 7s linear infinite 0.273333333333333s;
+  }
+  .pulse-heartBeatContainer .follow42 {
+    
+    animation: pulse 7s linear infinite 0.28s;
+  }
+  .pulse-heartBeatContainer .follow43 {
+    
+    animation: pulse 7s linear infinite 0.286666666666667s;
+  }
+  .pulse-heartBeatContainer .follow44 {
+    
+    animation: pulse 7s linear infinite 0.293333333333333s;
+  }
+  .pulse-heartBeatContainer .follow45 {
+    
+    animation: pulse 7s linear infinite 0.3s;
+  }
+  .pulse-heartBeatContainer .follow46 {
+    
+    animation: pulse 7s linear infinite 0.306666666666667s;
+  }
+  .pulse-heartBeatContainer .follow47 {
+    
+    animation: pulse 7s linear infinite 0.313333333333333s;
+  }
+  .pulse-heartBeatContainer .follow48 {
+    
+    animation: pulse 7s linear infinite 0.32s;
+  }
+  .pulse-heartBeatContainer .follow49 {
+    
+    animation: pulse 7s linear infinite 0.326666666666667s;
+  }
+  .pulse-heartBeatContainer .follow50 {
+    
+    animation: pulse 7s linear infinite 0.333333333333333s;
+  }
+  .pulse-heartBeatContainer .follow51 {
+    
+    animation: pulse 7s linear infinite 0.34s;
+  }
+  .pulse-heartBeatContainer .follow52 {
+    
+    animation: pulse 7s linear infinite 0.346666666666667s;
+  }
+  .pulse-heartBeatContainer .follow53 {
+    
+    animation: pulse 7s linear infinite 0.353333333333333s;
+  }
+  .pulse-heartBeatContainer .follow54 {
+    
+    animation: pulse 7s linear infinite 0.36s;
+  }
+  .pulse-heartBeatContainer .follow55 {
+    
+    animation: pulse 7s linear infinite 0.366666666666667s;
+  }
+  .pulse-heartBeatContainer .follow56 {
+    
+    animation: pulse 7s linear infinite 0.373333333333333s;
+  }
+  .pulse-heartBeatContainer .follow57 {
+    
+    animation: pulse 7s linear infinite 0.38s;
+  }
+  .pulse-heartBeatContainer .follow58 {
+    
+    animation: pulse 7s linear infinite 0.386666666666667s;
+  }
+  .pulse-heartBeatContainer .follow59 {
+    
+    animation: pulse 7s linear infinite 0.393333333333333s;
+  }
+  .pulse-heartBeatContainer .follow60 {
+    
+    animation: pulse 7s linear infinite 0.4s;
+  }
+  .pulse-heartBeatContainer .follow61 {
+    
+    animation: pulse 7s linear infinite 0.406666666666667s;
+  }
+  .pulse-heartBeatContainer .follow62 {
+    
+    animation: pulse 7s linear infinite 0.413333333333333s;
+  }
+  .pulse-heartBeatContainer .follow63 {
+    
+    animation: pulse 7s linear infinite 0.42s;
+  }
+  .pulse-heartBeatContainer .follow64 {
+    
+    animation: pulse 7s linear infinite 0.426666666666667s;
+  }
+  .pulse-heartBeatContainer .follow65 {
+    
+    animation: pulse 7s linear infinite 0.433333333333333s;
+  }
+  .pulse-heartBeatContainer .follow66 {
+    
+    animation: pulse 7s linear infinite 0.44s;
+  }
+  .pulse-heartBeatContainer .follow67 {
+    
+    animation: pulse 7s linear infinite 0.446666666666667s;
+  }
+  .pulse-heartBeatContainer .follow68 {
+    
+    animation: pulse 7s linear infinite 0.453333333333333s;
+  }
+  .pulse-heartBeatContainer .follow69 {
+    
+    animation: pulse 7s linear infinite 0.46s;
+  }
+  .pulse-heartBeatContainer .follow70 {
+    
+    animation: pulse 7s linear infinite 0.466666666666667s;
+  }
+  .pulse-heartBeatContainer .follow71 {
+    
+    animation: pulse 7s linear infinite 0.473333333333333s;
+  }
+  .pulse-heartBeatContainer .follow72 {
+    
+    animation: pulse 7s linear infinite 0.48s;
+  }
+  .pulse-heartBeatContainer .follow73 {
+    
+    animation: pulse 7s linear infinite 0.486666666666667s;
+  }
+  .pulse-heartBeatContainer .follow74 {
+    
+    animation: pulse 7s linear infinite 0.493333333333333s;
+  }
+  .pulse-heartBeatContainer .follow75 {
+    
+    animation: pulse 7s linear infinite 0.5s;
+  }
+  .pulse-heartBeatContainer .follow76 {
+    
+    animation: pulse 7s linear infinite 0.506666666666667s;
+  }
+  .pulse-heartBeatContainer .follow77 {
+    
+    animation: pulse 7s linear infinite 0.513333333333333s;
+  }
+  .pulse-heartBeatContainer .follow78 {
+    
+    animation: pulse 7s linear infinite 0.52s;
+  }
+  .pulse-heartBeatContainer .follow79 {
+    
+    animation: pulse 7s linear infinite 0.526666666666667s;
+  }
+  .pulse-heartBeatContainer .follow80 {
+    
+    animation: pulse 7s linear infinite 0.533333333333333s;
+  }
+  .pulse-heartBeatContainer .follow81 {
+    
+    animation: pulse 7s linear infinite 0.54s;
+  }
+  .pulse-heartBeatContainer .follow82 {
+    
+    animation: pulse 7s linear infinite 0.546666666666667s;
+  }
+  .pulse-heartBeatContainer .follow83 {
+    
+    animation: pulse 7s linear infinite 0.553333333333333s;
+  }
+  .pulse-heartBeatContainer .follow84 {
+    
+    animation: pulse 7s linear infinite 0.56s;
+  }
+  .pulse-heartBeatContainer .follow85 {
+    
+    animation: pulse 7s linear infinite 0.566666666666667s;
+  }
+  .pulse-heartBeatContainer .follow86 {
+    
+    animation: pulse 7s linear infinite 0.573333333333333s;
+  }
+  .pulse-heartBeatContainer .follow87 {
+    
+    animation: pulse 7s linear infinite 0.58s;
+  }
+  .pulse-heartBeatContainer .follow88 {
+    
+    animation: pulse 7s linear infinite 0.586666666666667s;
+  }
+  .pulse-heartBeatContainer .follow89 {
+    
+    animation: pulse 7s linear infinite 0.593333333333333s;
+  }
+  .pulse-heartBeatContainer .follow90 {
+    
+    animation: pulse 7s linear infinite 0.6s;
+  }
+  .pulse-heartBeatContainer .follow91 {
+    
+    animation: pulse 7s linear infinite 0.606666666666667s;
+  }
+  .pulse-heartBeatContainer .follow92 {
+    
+    animation: pulse 7s linear infinite 0.613333333333333s;
+  }
+  .pulse-heartBeatContainer .follow93 {
+    
+    animation: pulse 7s linear infinite 0.62s;
+  }
+  .pulse-heartBeatContainer .follow94 {
+    
+    animation: pulse 7s linear infinite 0.626666666666667s;
+  }
+  .pulse-heartBeatContainer .follow95 {
+    
+    animation: pulse 7s linear infinite 0.633333333333333s;
+  }
+  .pulse-heartBeatContainer .follow96 {
+    
+    animation: pulse 7s linear infinite 0.64s;
+  }
+  .pulse-heartBeatContainer .follow97 {
+    
+    animation: pulse 7s linear infinite 0.646666666666667s;
+  }
+  .pulse-heartBeatContainer .follow98 {
+    
+    animation: pulse 7s linear infinite 0.653333333333333s;
+  }
+  .pulse-heartBeatContainer .follow99 {
+    
+    animation: pulse 7s linear infinite 0.66s;
+  }
+  .pulse-heartBeatContainer .follow100 {
+    
+    animation: pulse 7s linear infinite 0.666666666666667s;
+  }
+  .pulse-heartBeatContainer .follow101 {
+    
+    animation: pulse 7s linear infinite 0.673333333333333s;
+  }
+  .pulse-heartBeatContainer .follow102 {
+    
+    animation: pulse 7s linear infinite 0.68s;
+  }
+  .pulse-heartBeatContainer .follow103 {
+    
+    animation: pulse 7s linear infinite 0.686666666666667s;
+  }
+  .pulse-heartBeatContainer .follow104 {
+    
+    animation: pulse 7s linear infinite 0.693333333333333s;
+  }
+  .pulse-heartBeatContainer .follow105 {
+    
+    animation: pulse 7s linear infinite 0.7s;
+  }
+  .pulse-heartBeatContainer .follow106 {
+    
+    animation: pulse 7s linear infinite 0.706666666666667s;
+  }
+  .pulse-heartBeatContainer .follow107 {
+    
+    animation: pulse 7s linear infinite 0.713333333333333s;
+  }
+  .pulse-heartBeatContainer .follow108 {
+    
+    animation: pulse 7s linear infinite 0.72s;
+  }
+  .pulse-heartBeatContainer .follow109 {
+    
+    animation: pulse 7s linear infinite 0.726666666666667s;
+  }
+  .pulse-heartBeatContainer .follow110 {
+    
+    animation: pulse 7s linear infinite 0.733333333333333s;
+  }
+  .pulse-heartBeatContainer .follow111 {
+    
+    animation: pulse 7s linear infinite 0.74s;
+  }
+  .pulse-heartBeatContainer .follow112 {
+    
+    animation: pulse 7s linear infinite 0.746666666666667s;
+  }
+  .pulse-heartBeatContainer .follow113 {
+    
+    animation: pulse 7s linear infinite 0.753333333333333s;
+  }
+  .pulse-heartBeatContainer .follow114 {
+    
+    animation: pulse 7s linear infinite 0.76s;
+  }
+  .pulse-heartBeatContainer .follow115 {
+    
+    animation: pulse 7s linear infinite 0.766666666666667s;
+  }
+  .pulse-heartBeatContainer .follow116 {
+    
+    animation: pulse 7s linear infinite 0.773333333333333s;
+  }
+  .pulse-heartBeatContainer .follow117 {
+    
+    animation: pulse 7s linear infinite 0.78s;
+  }
+  .pulse-heartBeatContainer .follow118 {
+    
+    animation: pulse 7s linear infinite 0.786666666666667s;
+  }
+  .pulse-heartBeatContainer .follow119 {
+    
+    animation: pulse 7s linear infinite 0.793333333333333s;
+  }
+  .pulse-heartBeatContainer .follow120 {
+    
+    animation: pulse 7s linear infinite 0.8s;
+  }
+  .pulse-heartBeatContainer .follow121 {
+    
+    animation: pulse 7s linear infinite 0.806666666666667s;
+  }
+  .pulse-heartBeatContainer .follow122 {
+    
+    animation: pulse 7s linear infinite 0.813333333333333s;
+  }
+  .pulse-heartBeatContainer .follow123 {
+    
+    animation: pulse 7s linear infinite 0.82s;
+  }
+  .pulse-heartBeatContainer .follow124 {
+    
+    animation: pulse 7s linear infinite 0.826666666666667s;
+  }
+  .pulse-heartBeatContainer .follow125 {
+    
+    animation: pulse 7s linear infinite 0.833333333333333s;
+  }
+  .pulse-heartBeatContainer .follow126 {
+    
+    animation: pulse 7s linear infinite 0.84s;
+  }
+  .pulse-heartBeatContainer .follow127 {
+    
+    animation: pulse 7s linear infinite 0.846666666666667s;
+  }
+  .pulse-heartBeatContainer .follow128 {
+    
+    animation: pulse 7s linear infinite 0.853333333333333s;
+  }
+  .pulse-heartBeatContainer .follow129 {
+    
+    animation: pulse 7s linear infinite 0.86s;
+  }
+  .pulse-heartBeatContainer .follow130 {
+    
+    animation: pulse 7s linear infinite 0.866666666666667s;
+  }
+  .pulse-heartBeatContainer .follow131 {
+    
+    animation: pulse 7s linear infinite 0.873333333333333s;
+  }
+  .pulse-heartBeatContainer .follow132 {
+    
+    animation: pulse 7s linear infinite 0.88s;
+  }
+  .pulse-heartBeatContainer .follow133 {
+    
+    animation: pulse 7s linear infinite 0.886666666666667s;
+  }
+  .pulse-heartBeatContainer .follow134 {
+    
+    animation: pulse 7s linear infinite 0.893333333333333s;
+  }
+  .pulse-heartBeatContainer .follow135 {
+    
+    animation: pulse 7s linear infinite 0.9s;
+  }
+  .pulse-heartBeatContainer .follow136 {
+    
+    animation: pulse 7s linear infinite 0.906666666666667s;
+  }
+  .pulse-heartBeatContainer .follow137 {
+    
+    animation: pulse 7s linear infinite 0.913333333333333s;
+  }
+  .pulse-heartBeatContainer .follow138 {
+    
+    animation: pulse 7s linear infinite 0.92s;
+  }
+  .pulse-heartBeatContainer .follow139 {
+    
+    animation: pulse 7s linear infinite 0.926666666666667s;
+  }
+  .pulse-heartBeatContainer .follow140 {
+    
+    animation: pulse 7s linear infinite 0.933333333333333s;
+  }
+  .pulse-heartBeatContainer .follow141 {
+    
+    animation: pulse 7s linear infinite 0.94s;
+  }
+  .pulse-heartBeatContainer .follow142 {
+    
+    animation: pulse 7s linear infinite 0.946666666666667s;
+  }
+  .pulse-heartBeatContainer .follow143 {
+    
+    animation: pulse 7s linear infinite 0.953333333333333s;
+  }
+  .pulse-heartBeatContainer .follow144 {
+    
+    animation: pulse 7s linear infinite 0.96s;
+  }
+  .pulse-heartBeatContainer .follow145 {
+    
+    animation: pulse 7s linear infinite 0.966666666666667s;
+  }
+  .pulse-heartBeatContainer .follow146 {
+    
+    animation: pulse 7s linear infinite 0.973333333333333s;
+  }
+  .pulse-heartBeatContainer .follow147 {
+    
+    animation: pulse 7s linear infinite 0.98s;
+  }
+  .pulse-heartBeatContainer .follow148 {
+    
+    animation: pulse 7s linear infinite 0.986666666666667s;
+  }
+  .pulse-heartBeatContainer .follow149 {
+    
+    animation: pulse 7s linear infinite 0.993333333333333s;
+  }
+  .pulse-heartBeatContainer .follow150 {
+    
+    animation: pulse 7s linear infinite 1s;
+  }
+  .pulse-heartBeatContainer .follow151 {
+    
+    animation: pulse 7s linear infinite 1.006666666666667s;
+  }
+  .pulse-heartBeatContainer .follow152 {
+    
+    animation: pulse 7s linear infinite 1.013333333333333s;
+  }
+  .pulse-heartBeatContainer .follow153 {
+    
+    animation: pulse 7s linear infinite 1.02s;
+  }
+  .pulse-heartBeatContainer .follow154 {
+    
+    animation: pulse 7s linear infinite 1.026666666666667s;
+  }
+  .pulse-heartBeatContainer .follow155 {
+    
+    animation: pulse 7s linear infinite 1.033333333333333s;
+  }
+  .pulse-heartBeatContainer .follow156 {
+    
+    animation: pulse 7s linear infinite 1.04s;
+  }
+  .pulse-heartBeatContainer .follow157 {
+    
+    animation: pulse 7s linear infinite 1.046666666666667s;
+  }
+  .pulse-heartBeatContainer .follow158 {
+    
+    animation: pulse 7s linear infinite 1.053333333333333s;
+  }
+  .pulse-heartBeatContainer .follow159 {
+    
+    animation: pulse 7s linear infinite 1.06s;
+  }
+  .pulse-heartBeatContainer .follow160 {
+    
+    animation: pulse 7s linear infinite 1.066666666666667s;
+  }
+  .pulse-heartBeatContainer .follow161 {
+    
+    animation: pulse 7s linear infinite 1.073333333333333s;
+  }
+  .pulse-heartBeatContainer .follow162 {
+    
+    animation: pulse 7s linear infinite 1.08s;
+  }
+  .pulse-heartBeatContainer .follow163 {
+    
+    animation: pulse 7s linear infinite 1.086666666666667s;
+  }
+  .pulse-heartBeatContainer .follow164 {
+    
+    animation: pulse 7s linear infinite 1.093333333333333s;
+  }
+  .pulse-heartBeatContainer .follow165 {
+    
+    animation: pulse 7s linear infinite 1.1s;
+  }
+  .pulse-heartBeatContainer .follow166 {
+    
+    animation: pulse 7s linear infinite 1.106666666666667s;
+  }
+  .pulse-heartBeatContainer .follow167 {
+    
+    animation: pulse 7s linear infinite 1.113333333333333s;
+  }
+  .pulse-heartBeatContainer .follow168 {
+    
+    animation: pulse 7s linear infinite 1.12s;
+  }
+  .pulse-heartBeatContainer .follow169 {
+    
+    animation: pulse 7s linear infinite 1.126666666666667s;
+  }
+  .pulse-heartBeatContainer .follow170 {
+    
+    animation: pulse 7s linear infinite 1.133333333333333s;
+  }
+  .pulse-heartBeatContainer .follow171 {
+    
+    animation: pulse 7s linear infinite 1.14s;
+  }
+  .pulse-heartBeatContainer .follow172 {
+    
+    animation: pulse 7s linear infinite 1.146666666666667s;
+  }
+  .pulse-heartBeatContainer .follow173 {
+    
+    animation: pulse 7s linear infinite 1.153333333333333s;
+  }
+  .pulse-heartBeatContainer .follow174 {
+    
+    animation: pulse 7s linear infinite 1.16s;
+  }
+  .pulse-heartBeatContainer .follow175 {
+    
+    animation: pulse 7s linear infinite 1.166666666666667s;
+  }
+  .pulse-heartBeatContainer .follow176 {
+    
+    animation: pulse 7s linear infinite 1.173333333333333s;
+  }
+  .pulse-heartBeatContainer .follow177 {
+    
+    animation: pulse 7s linear infinite 1.18s;
+  }
+  .pulse-heartBeatContainer .follow178 {
+    
+    animation: pulse 7s linear infinite 1.186666666666667s;
+  }
+  .pulse-heartBeatContainer .follow179 {
+    
+    animation: pulse 7s linear infinite 1.193333333333333s;
+  }
+  .pulse-heartBeatContainer .follow180 {
+    
+    animation: pulse 7s linear infinite 1.2s;
+  }
+  .pulse-heartBeatContainer .follow181 {
+    
+    animation: pulse 7s linear infinite 1.206666666666667s;
+  }
+  .pulse-heartBeatContainer .follow182 {
+    
+    animation: pulse 7s linear infinite 1.213333333333333s;
+  }
+  .pulse-heartBeatContainer .follow183 {
+    
+    animation: pulse 7s linear infinite 1.22s;
+  }
+  .pulse-heartBeatContainer .follow184 {
+    
+    animation: pulse 7s linear infinite 1.226666666666667s;
+  }
+  .pulse-heartBeatContainer .follow185 {
+    
+    animation: pulse 7s linear infinite 1.233333333333333s;
+  }
+  .pulse-heartBeatContainer .follow186 {
+    
+    animation: pulse 7s linear infinite 1.24s;
+  }
+  .pulse-heartBeatContainer .follow187 {
+    
+    animation: pulse 7s linear infinite 1.246666666666667s;
+  }
+  .pulse-heartBeatContainer .follow188 {
+    
+    animation: pulse 7s linear infinite 1.253333333333333s;
+  }
+  .pulse-heartBeatContainer .follow189 {
+    
+    animation: pulse 7s linear infinite 1.26s;
+  }
+  .pulse-heartBeatContainer .follow190 {
+    
+    animation: pulse 7s linear infinite 1.266666666666667s;
+  }
+  .pulse-heartBeatContainer .follow191 {
+    
+    animation: pulse 7s linear infinite 1.273333333333333s;
+  }
+  .pulse-heartBeatContainer .follow192 {
+    
+    animation: pulse 7s linear infinite 1.28s;
+  }
+  .pulse-heartBeatContainer .follow193 {
+    
+    animation: pulse 7s linear infinite 1.286666666666667s;
+  }
+  .pulse-heartBeatContainer .follow194 {
+    
+    animation: pulse 7s linear infinite 1.293333333333333s;
+  }
+  .pulse-heartBeatContainer .follow195 {
+    
+    animation: pulse 7s linear infinite 1.3s;
+  }
+  .pulse-heartBeatContainer .follow196 {
+    
+    animation: pulse 7s linear infinite 1.306666666666667s;
+  }
+  .pulse-heartBeatContainer .follow197 {
+    
+    animation: pulse 7s linear infinite 1.313333333333333s;
+  }
+  .pulse-heartBeatContainer .follow198 {
+    
+    animation: pulse 7s linear infinite 1.32s;
+  }
+  .pulse-heartBeatContainer .follow199 {
+    
+    animation: pulse 7s linear infinite 1.326666666666667s;
+  }
+  .pulse-heartBeatContainer .follow200 {
+    
+    animation: pulse 7s linear infinite 1.333333333333333s;
+  }
+  .pulse-heartBeatContainer .follow201 {
+    
+    animation: pulse 7s linear infinite 1.34s;
+  }
+  .pulse-heartBeatContainer .follow202 {
+    
+    animation: pulse 7s linear infinite 1.346666666666667s;
+  }
+  .pulse-heartBeatContainer .follow203 {
+    
+    animation: pulse 7s linear infinite 1.353333333333333s;
+  }
+  .pulse-heartBeatContainer .follow204 {
+    
+    animation: pulse 7s linear infinite 1.36s;
+  }
+  .pulse-heartBeatContainer .follow205 {
+    
+    animation: pulse 7s linear infinite 1.366666666666667s;
+  }
+  .pulse-heartBeatContainer .follow206 {
+    
+    animation: pulse 7s linear infinite 1.373333333333333s;
+  }
+  .pulse-heartBeatContainer .follow207 {
+    
+    animation: pulse 7s linear infinite 1.38s;
+  }
+  .pulse-heartBeatContainer .follow208 {
+    
+    animation: pulse 7s linear infinite 1.386666666666667s;
+  }
+  .pulse-heartBeatContainer .follow209 {
+    
+    animation: pulse 7s linear infinite 1.393333333333333s;
+  }
+  .pulse-heartBeatContainer .follow210 {
+    
+    animation: pulse 7s linear infinite 1.4s;
+  }
+  .pulse-heartBeatContainer .follow211 {
+    
+    animation: pulse 7s linear infinite 1.406666666666667s;
+  }
+  .pulse-heartBeatContainer .follow212 {
+    
+    animation: pulse 7s linear infinite 1.413333333333333s;
+  }
+  .pulse-heartBeatContainer .follow213 {
+    
+    animation: pulse 7s linear infinite 1.42s;
+  }
+  .pulse-heartBeatContainer .follow214 {
+    
+    animation: pulse 7s linear infinite 1.426666666666667s;
+  }
+  .pulse-heartBeatContainer .follow215 {
+    
+    animation: pulse 7s linear infinite 1.433333333333333s;
+  }
+  .pulse-heartBeatContainer .follow216 {
+    
+    animation: pulse 7s linear infinite 1.44s;
+  }
+  .pulse-heartBeatContainer .follow217 {
+    
+    animation: pulse 7s linear infinite 1.446666666666667s;
+  }
+  .pulse-heartBeatContainer .follow218 {
+    
+    animation: pulse 7s linear infinite 1.453333333333333s;
+  }
+  .pulse-heartBeatContainer .follow219 {
+    
+    animation: pulse 7s linear infinite 1.46s;
+  }
+  .pulse-heartBeatContainer .follow220 {
+    
+    animation: pulse 7s linear infinite 1.466666666666667s;
+  }
+  .pulse-heartBeatContainer .follow221 {
+    
+    animation: pulse 7s linear infinite 1.473333333333333s;
+  }
+  .pulse-heartBeatContainer .follow222 {
+    
+    animation: pulse 7s linear infinite 1.48s;
+  }
+  .pulse-heartBeatContainer .follow223 {
+    
+    animation: pulse 7s linear infinite 1.486666666666667s;
+  }
+  .pulse-heartBeatContainer .follow224 {
+    
+    animation: pulse 7s linear infinite 1.493333333333333s;
+  }
+  .pulse-heartBeatContainer .follow225 {
+    
+    animation: pulse 7s linear infinite 1.5s;
+  }
+  .pulse-heartBeatContainer .follow226 {
+    
+    animation: pulse 7s linear infinite 1.506666666666667s;
+  }
+  .pulse-heartBeatContainer .follow227 {
+    
+    animation: pulse 7s linear infinite 1.513333333333333s;
+  }
+  .pulse-heartBeatContainer .follow228 {
+    
+    animation: pulse 7s linear infinite 1.52s;
+  }
+  .pulse-heartBeatContainer .follow229 {
+    
+    animation: pulse 7s linear infinite 1.526666666666667s;
+  }
+  .pulse-heartBeatContainer .follow230 {
+    
+    animation: pulse 7s linear infinite 1.533333333333333s;
+  }
+  .pulse-heartBeatContainer .follow231 {
+    
+    animation: pulse 7s linear infinite 1.54s;
+  }
+  .pulse-heartBeatContainer .follow232 {
+    
+    animation: pulse 7s linear infinite 1.546666666666667s;
+  }
+  .pulse-heartBeatContainer .follow233 {
+    
+    animation: pulse 7s linear infinite 1.553333333333333s;
+  }
+  .pulse-heartBeatContainer .follow234 {
+    
+    animation: pulse 7s linear infinite 1.56s;
+  }
+  .pulse-heartBeatContainer .follow235 {
+    
+    animation: pulse 7s linear infinite 1.566666666666667s;
+  }
+  .pulse-heartBeatContainer .follow236 {
+    
+    animation: pulse 7s linear infinite 1.573333333333333s;
+  }
+  .pulse-heartBeatContainer .follow237 {
+    
+    animation: pulse 7s linear infinite 1.58s;
+  }
+  .pulse-heartBeatContainer .follow238 {
+    
+    animation: pulse 7s linear infinite 1.586666666666667s;
+  }
+  .pulse-heartBeatContainer .follow239 {
+    
+    animation: pulse 7s linear infinite 1.593333333333333s;
+  }
+  .pulse-heartBeatContainer .follow240 {
+    
+    animation: pulse 7s linear infinite 1.6s;
+  }
+  .pulse-heartBeatContainer .follow241 {
+    
+    animation: pulse 7s linear infinite 1.606666666666667s;
+  }
+  .pulse-heartBeatContainer .follow242 {
+    
+    animation: pulse 7s linear infinite 1.613333333333333s;
+  }
+  .pulse-heartBeatContainer .follow243 {
+    
+    animation: pulse 7s linear infinite 1.62s;
+  }
+  .pulse-heartBeatContainer .follow244 {
+    
+    animation: pulse 7s linear infinite 1.626666666666667s;
+  }
+  .pulse-heartBeatContainer .follow245 {
+    
+    animation: pulse 7s linear infinite 1.633333333333333s;
+  }
+  .pulse-heartBeatContainer .follow246 {
+    
+    animation: pulse 7s linear infinite 1.64s;
+  }
+  .pulse-heartBeatContainer .follow247 {
+    
+    animation: pulse 7s linear infinite 1.646666666666667s;
+  }
+  .pulse-heartBeatContainer .follow248 {
+    
+    animation: pulse 7s linear infinite 1.653333333333333s;
+  }
+  .pulse-heartBeatContainer .follow249 {
+    
+    animation: pulse 7s linear infinite 1.66s;
+  }
+  .pulse-heartBeatContainer .follow250 {
+    
+    animation: pulse 7s linear infinite 1.666666666666667s;
+  }
+  .pulse-heartBeatContainer .follow251 {
+    
+    animation: pulse 7s linear infinite 1.673333333333333s;
+  }
+  .pulse-heartBeatContainer .follow252 {
+    
+    animation: pulse 7s linear infinite 1.68s;
+  }
+  .pulse-heartBeatContainer .follow253 {
+    
+    animation: pulse 7s linear infinite 1.686666666666667s;
+  }
+  .pulse-heartBeatContainer .follow254 {
+    
+    animation: pulse 7s linear infinite 1.693333333333333s;
+  }
+  .pulse-heartBeatContainer .follow255 {
+    
+    animation: pulse 7s linear infinite 1.7s;
+  }
+  .pulse-heartBeatContainer .follow256 {
+    
+    animation: pulse 7s linear infinite 1.706666666666667s;
+  }
+  .pulse-heartBeatContainer .follow257 {
+    
+    animation: pulse 7s linear infinite 1.713333333333333s;
+  }
+  .pulse-heartBeatContainer .follow258 {
+    
+    animation: pulse 7s linear infinite 1.72s;
+  }
+  .pulse-heartBeatContainer .follow259 {
+    
+    animation: pulse 7s linear infinite 1.726666666666667s;
+  }
+  .pulse-heartBeatContainer .follow260 {
+    
+    animation: pulse 7s linear infinite 1.733333333333333s;
+  }
+  .pulse-heartBeatContainer .follow261 {
+    
+    animation: pulse 7s linear infinite 1.74s;
+  }
+  .pulse-heartBeatContainer .follow262 {
+    
+    animation: pulse 7s linear infinite 1.746666666666667s;
+  }
+  .pulse-heartBeatContainer .follow263 {
+    
+    animation: pulse 7s linear infinite 1.753333333333333s;
+  }
+  .pulse-heartBeatContainer .follow264 {
+    
+    animation: pulse 7s linear infinite 1.76s;
+  }
+  .pulse-heartBeatContainer .follow265 {
+    
+    animation: pulse 7s linear infinite 1.766666666666667s;
+  }
+  .pulse-heartBeatContainer .follow266 {
+    
+    animation: pulse 7s linear infinite 1.773333333333333s;
+  }
+  .pulse-heartBeatContainer .follow267 {
+    
+    animation: pulse 7s linear infinite 1.78s;
+  }
+  .pulse-heartBeatContainer .follow268 {
+    
+    animation: pulse 7s linear infinite 1.786666666666667s;
+  }
+  .pulse-heartBeatContainer .follow269 {
+    
+    animation: pulse 7s linear infinite 1.793333333333333s;
+  }
+  .pulse-heartBeatContainer .follow270 {
+    
+    animation: pulse 7s linear infinite 1.8s;
+  }
+  .pulse-heartBeatContainer .follow271 {
+    
+    animation: pulse 7s linear infinite 1.806666666666667s;
+  }
+  .pulse-heartBeatContainer .follow272 {
+    
+    animation: pulse 7s linear infinite 1.813333333333333s;
+  }
+  .pulse-heartBeatContainer .follow273 {
+    
+    animation: pulse 7s linear infinite 1.82s;
+  }
+  .pulse-heartBeatContainer .follow274 {
+    
+    animation: pulse 7s linear infinite 1.826666666666667s;
+  }
+  .pulse-heartBeatContainer .follow275 {
+    
+    animation: pulse 7s linear infinite 1.833333333333333s;
+  }
+  .pulse-heartBeatContainer .follow276 {
+    
+    animation: pulse 7s linear infinite 1.84s;
+  }
+  .pulse-heartBeatContainer .follow277 {
+    
+    animation: pulse 7s linear infinite 1.846666666666667s;
+  }
+  .pulse-heartBeatContainer .follow278 {
+    
+    animation: pulse 7s linear infinite 1.853333333333333s;
+  }
+  .pulse-heartBeatContainer .follow279 {
+    
+    animation: pulse 7s linear infinite 1.86s;
+  }
+  .pulse-heartBeatContainer .follow280 {
+    
+    animation: pulse 7s linear infinite 1.866666666666667s;
+  }
+  .pulse-heartBeatContainer .follow281 {
+    
+    animation: pulse 7s linear infinite 1.873333333333333s;
+  }
+  .pulse-heartBeatContainer .follow282 {
+    
+    animation: pulse 7s linear infinite 1.88s;
+  }
+  .pulse-heartBeatContainer .follow283 {
+    
+    animation: pulse 7s linear infinite 1.886666666666667s;
+  }
+  .pulse-heartBeatContainer .follow284 {
+    
+    animation: pulse 7s linear infinite 1.893333333333333s;
+  }
+  .pulse-heartBeatContainer .follow285 {
+    
+    animation: pulse 7s linear infinite 1.9s;
+  }
+  .pulse-heartBeatContainer .follow286 {
+    
+    animation: pulse 7s linear infinite 1.906666666666667s;
+  }
+  .pulse-heartBeatContainer .follow287 {
+    
+    animation: pulse 7s linear infinite 1.913333333333333s;
+  }
+  .pulse-heartBeatContainer .follow288 {
+    
+    animation: pulse 7s linear infinite 1.92s;
+  }
+  .pulse-heartBeatContainer .follow289 {
+    
+    animation: pulse 7s linear infinite 1.926666666666667s;
+  }
+  .pulse-heartBeatContainer .follow290 {
+    
+    animation: pulse 7s linear infinite 1.933333333333333s;
+  }
+  .pulse-heartBeatContainer .follow291 {
+    
+    animation: pulse 7s linear infinite 1.94s;
+  }
+  .pulse-heartBeatContainer .follow292 {
+    
+    animation: pulse 7s linear infinite 1.946666666666667s;
+  }
+  .pulse-heartBeatContainer .follow293 {
+    
+    animation: pulse 7s linear infinite 1.953333333333333s;
+  }
+  .pulse-heartBeatContainer .follow294 {
+    
+    animation: pulse 7s linear infinite 1.96s;
+  }
+  .pulse-heartBeatContainer .follow295 {
+    
+    animation: pulse 7s linear infinite 1.966666666666667s;
+  }
+  .pulse-heartBeatContainer .follow296 {
+    
+    animation: pulse 7s linear infinite 1.973333333333333s;
+  }
+  .pulse-heartBeatContainer .follow297 {
+    
+    animation: pulse 7s linear infinite 1.98s;
+  }
+  .pulse-heartBeatContainer .follow298 {
+    
+    animation: pulse 7s linear infinite 1.986666666666667s;
+  }
+  .pulse-heartBeatContainer .follow299 {
+    
+    animation: pulse 7s linear infinite 1.993333333333333s;
+  }
+  .pulse-heartBeatContainer .follow300 {
+    
+    animation: pulse 7s linear infinite 2s;
+  }
+  .pulse-heartBeatContainer .follow301 {
+    
+    animation: pulse 7s linear infinite 2.006666666666667s;
+  }
+  .pulse-heartBeatContainer .follow302 {
+    
+    animation: pulse 7s linear infinite 2.013333333333333s;
+  }
+  .pulse-heartBeatContainer .follow303 {
+    
+    animation: pulse 7s linear infinite 2.02s;
+  }
+  .pulse-heartBeatContainer .follow304 {
+    
+    animation: pulse 7s linear infinite 2.026666666666667s;
+  }
+  .pulse-heartBeatContainer .follow305 {
+    
+    animation: pulse 7s linear infinite 2.033333333333333s;
+  }
+  .pulse-heartBeatContainer .follow306 {
+    
+    animation: pulse 7s linear infinite 2.04s;
+  }
+  .pulse-heartBeatContainer .follow307 {
+    
+    animation: pulse 7s linear infinite 2.046666666666667s;
+  }
+  .pulse-heartBeatContainer .follow308 {
+    
+    animation: pulse 7s linear infinite 2.053333333333333s;
+  }
+  .pulse-heartBeatContainer .follow309 {
+    
+    animation: pulse 7s linear infinite 2.06s;
+  }
+  .pulse-heartBeatContainer .follow310 {
+    
+    animation: pulse 7s linear infinite 2.066666666666667s;
+  }
+  .pulse-heartBeatContainer .follow311 {
+    
+    animation: pulse 7s linear infinite 2.073333333333333s;
+  }
+  .pulse-heartBeatContainer .follow312 {
+    
+    animation: pulse 7s linear infinite 2.08s;
+  }
+  .pulse-heartBeatContainer .follow313 {
+    
+    animation: pulse 7s linear infinite 2.086666666666666s;
+  }
+  .pulse-heartBeatContainer .follow314 {
+    
+    animation: pulse 7s linear infinite 2.093333333333333s;
+  }
+  .pulse-heartBeatContainer .follow315 {
+    
+    animation: pulse 7s linear infinite 2.1s;
+  }
+  .pulse-heartBeatContainer .follow316 {
+    
+    animation: pulse 7s linear infinite 2.106666666666666s;
+  }
+  .pulse-heartBeatContainer .follow317 {
+    
+    animation: pulse 7s linear infinite 2.113333333333333s;
+  }
+  .pulse-heartBeatContainer .follow318 {
+    
+    animation: pulse 7s linear infinite 2.12s;
+  }
+  .pulse-heartBeatContainer .follow319 {
+    
+    animation: pulse 7s linear infinite 2.126666666666666s;
+  }
+  .pulse-heartBeatContainer .follow320 {
+    
+    animation: pulse 7s linear infinite 2.133333333333333s;
+  }
+  .pulse-heartBeatContainer .follow321 {
+    
+    animation: pulse 7s linear infinite 2.14s;
+  }
+  .pulse-heartBeatContainer .follow322 {
+    
+    animation: pulse 7s linear infinite 2.146666666666667s;
+  }
+  .pulse-heartBeatContainer .follow323 {
+    
+    animation: pulse 7s linear infinite 2.153333333333333s;
+  }
+  .pulse-heartBeatContainer .follow324 {
+    
+    animation: pulse 7s linear infinite 2.16s;
+  }
+  .pulse-heartBeatContainer .follow325 {
+    
+    animation: pulse 7s linear infinite 2.166666666666667s;
+  }
+  .pulse-heartBeatContainer .follow326 {
+    
+    animation: pulse 7s linear infinite 2.173333333333333s;
+  }
+  .pulse-heartBeatContainer .follow327 {
+    
+    animation: pulse 7s linear infinite 2.18s;
+  }
+  .pulse-heartBeatContainer .follow328 {
+    
+    animation: pulse 7s linear infinite 2.186666666666667s;
+  }
+  .pulse-heartBeatContainer .follow329 {
+    
+    animation: pulse 7s linear infinite 2.193333333333333s;
+  }
+  .pulse-heartBeatContainer .follow330 {
+    
+    animation: pulse 7s linear infinite 2.2s;
+  }
+  .pulse-heartBeatContainer .follow331 {
+    
+    animation: pulse 7s linear infinite 2.206666666666667s;
+  }
+  .pulse-heartBeatContainer .follow332 {
+    
+    animation: pulse 7s linear infinite 2.213333333333333s;
+  }
+  .pulse-heartBeatContainer .follow333 {
+    
+    animation: pulse 7s linear infinite 2.22s;
+  }
+  .pulse-heartBeatContainer .follow334 {
+    
+    animation: pulse 7s linear infinite 2.226666666666667s;
+  }
+  .pulse-heartBeatContainer .follow335 {
+    
+    animation: pulse 7s linear infinite 2.233333333333333s;
+  }
+  .pulse-heartBeatContainer .follow336 {
+    
+    animation: pulse 7s linear infinite 2.24s;
+  }
+  .pulse-heartBeatContainer .follow337 {
+    
+    animation: pulse 7s linear infinite 2.246666666666667s;
+  }
+  .pulse-heartBeatContainer .follow338 {
+    
+    animation: pulse 7s linear infinite 2.253333333333333s;
+  }
+  .pulse-heartBeatContainer .follow339 {
+    
+    animation: pulse 7s linear infinite 2.26s;
+  }
+  .pulse-heartBeatContainer .follow340 {
+    
+    animation: pulse 7s linear infinite 2.266666666666667s;
+  }
+  .pulse-heartBeatContainer .follow341 {
+    
+    animation: pulse 7s linear infinite 2.273333333333333s;
+  }
+  .pulse-heartBeatContainer .follow342 {
+    
+    animation: pulse 7s linear infinite 2.28s;
+  }
+  .pulse-heartBeatContainer .follow343 {
+    
+    animation: pulse 7s linear infinite 2.286666666666667s;
+  }
+  .pulse-heartBeatContainer .follow344 {
+    
+    animation: pulse 7s linear infinite 2.293333333333333s;
+  }
+  .pulse-heartBeatContainer .follow345 {
+    
+    animation: pulse 7s linear infinite 2.3s;
+  }
+  .pulse-heartBeatContainer .follow346 {
+    
+    animation: pulse 7s linear infinite 2.306666666666667s;
+  }
+  .pulse-heartBeatContainer .follow347 {
+    
+    animation: pulse 7s linear infinite 2.313333333333333s;
+  }
+  .pulse-heartBeatContainer .follow348 {
+    
+    animation: pulse 7s linear infinite 2.32s;
+  }
+  .pulse-heartBeatContainer .follow349 {
+    
+    animation: pulse 7s linear infinite 2.326666666666667s;
+  }
+  .pulse-heartBeatContainer .follow350 {
+    
+    animation: pulse 7s linear infinite 2.333333333333333s;
+  }
+  .pulse-heartBeatContainer .follow351 {
+    
+    animation: pulse 7s linear infinite 2.34s;
+  }
+  .pulse-heartBeatContainer .follow352 {
+    
+    animation: pulse 7s linear infinite 2.346666666666667s;
+  }
+  .pulse-heartBeatContainer .follow353 {
+    
+    animation: pulse 7s linear infinite 2.353333333333333s;
+  }
+  .pulse-heartBeatContainer .follow354 {
+    
+    animation: pulse 7s linear infinite 2.36s;
+  }
+  .pulse-heartBeatContainer .follow355 {
+    
+    animation: pulse 7s linear infinite 2.366666666666667s;
+  }
+  .pulse-heartBeatContainer .follow356 {
+    
+    animation: pulse 7s linear infinite 2.373333333333334s;
+  }
+  .pulse-heartBeatContainer .follow357 {
+    
+    animation: pulse 7s linear infinite 2.38s;
+  }
+  .pulse-heartBeatContainer .follow358 {
+    
+    animation: pulse 7s linear infinite 2.386666666666667s;
+  }
+  .pulse-heartBeatContainer .follow359 {
+    
+    animation: pulse 7s linear infinite 2.393333333333334s;
+  }
+  .pulse-heartBeatContainer .follow360 {
+    
+    animation: pulse 7s linear infinite 2.4s;
+  }
+  .pulse-heartBeatContainer .follow361 {
+    
+    animation: pulse 7s linear infinite 2.406666666666667s;
+  }
+  .pulse-heartBeatContainer .follow362 {
+    
+    animation: pulse 7s linear infinite 2.413333333333334s;
+  }
+  .pulse-heartBeatContainer .follow363 {
+    
+    animation: pulse 7s linear infinite 2.42s;
+  }
+  .pulse-heartBeatContainer .follow364 {
+    
+    animation: pulse 7s linear infinite 2.426666666666667s;
+  }
+  .pulse-heartBeatContainer .follow365 {
+    
+    animation: pulse 7s linear infinite 2.433333333333333s;
+  }
+  .pulse-heartBeatContainer .follow366 {
+    
+    animation: pulse 7s linear infinite 2.44s;
+  }
+  .pulse-heartBeatContainer .follow367 {
+    
+    animation: pulse 7s linear infinite 2.446666666666667s;
+  }
+  .pulse-heartBeatContainer .follow368 {
+    
+    animation: pulse 7s linear infinite 2.453333333333333s;
+  }
+  .pulse-heartBeatContainer .follow369 {
+    
+    animation: pulse 7s linear infinite 2.46s;
+  }
+  .pulse-heartBeatContainer .follow370 {
+    
+    animation: pulse 7s linear infinite 2.466666666666667s;
+  }
+  .pulse-heartBeatContainer .follow371 {
+    
+    animation: pulse 7s linear infinite 2.473333333333333s;
+  }
+  .pulse-heartBeatContainer .follow372 {
+    
+    animation: pulse 7s linear infinite 2.48s;
+  }
+  .pulse-heartBeatContainer .follow373 {
+    
+    animation: pulse 7s linear infinite 2.486666666666667s;
+  }
+  .pulse-heartBeatContainer .follow374 {
+    
+    animation: pulse 7s linear infinite 2.493333333333333s;
+  }
+  .pulse-heartBeatContainer .follow375 {
+    
+    animation: pulse 7s linear infinite 2.5s;
+  }
+  .pulse-heartBeatContainer .follow376 {
+    
+    animation: pulse 7s linear infinite 2.506666666666667s;
+  }
+  .pulse-heartBeatContainer .follow377 {
+    
+    animation: pulse 7s linear infinite 2.513333333333333s;
+  }
+  .pulse-heartBeatContainer .follow378 {
+    
+    animation: pulse 7s linear infinite 2.52s;
+  }
+  .pulse-heartBeatContainer .follow379 {
+    
+    animation: pulse 7s linear infinite 2.526666666666667s;
+  }
+  .pulse-heartBeatContainer .follow380 {
+    
+    animation: pulse 7s linear infinite 2.533333333333333s;
+  }
+  .pulse-heartBeatContainer .follow381 {
+    
+    animation: pulse 7s linear infinite 2.54s;
+  }
+  .pulse-heartBeatContainer .follow382 {
+    
+    animation: pulse 7s linear infinite 2.546666666666667s;
+  }
+  .pulse-heartBeatContainer .follow383 {
+    
+    animation: pulse 7s linear infinite 2.553333333333333s;
+  }
+  .pulse-heartBeatContainer .follow384 {
+    
+    animation: pulse 7s linear infinite 2.56s;
+  }
+  .pulse-heartBeatContainer .follow385 {
+    
+    animation: pulse 7s linear infinite 2.566666666666667s;
+  }
+  .pulse-heartBeatContainer .follow386 {
+    
+    animation: pulse 7s linear infinite 2.573333333333333s;
+  }
+  .pulse-heartBeatContainer .follow387 {
+    
+    animation: pulse 7s linear infinite 2.58s;
+  }
+  .pulse-heartBeatContainer .follow388 {
+    
+    animation: pulse 7s linear infinite 2.586666666666666s;
+  }
+  .pulse-heartBeatContainer .follow389 {
+    
+    animation: pulse 7s linear infinite 2.593333333333333s;
+  }
+  .pulse-heartBeatContainer .follow390 {
+    
+    animation: pulse 7s linear infinite 2.6s;
+  }
+  .pulse-heartBeatContainer .follow391 {
+    
+    animation: pulse 7s linear infinite 2.606666666666666s;
+  }
+  .pulse-heartBeatContainer .follow392 {
+    
+    animation: pulse 7s linear infinite 2.613333333333333s;
+  }
+  .pulse-heartBeatContainer .follow393 {
+    
+    animation: pulse 7s linear infinite 2.62s;
+  }
+  .pulse-heartBeatContainer .follow394 {
+    
+    animation: pulse 7s linear infinite 2.626666666666666s;
+  }
+  .pulse-heartBeatContainer .follow395 {
+    
+    animation: pulse 7s linear infinite 2.633333333333333s;
+  }
+  .pulse-heartBeatContainer .follow396 {
+    
+    animation: pulse 7s linear infinite 2.64s;
+  }
+  .pulse-heartBeatContainer .follow397 {
+    
+    animation: pulse 7s linear infinite 2.646666666666667s;
+  }
+  .pulse-heartBeatContainer .follow398 {
+    
+    animation: pulse 7s linear infinite 2.653333333333333s;
+  }
+  .pulse-heartBeatContainer .follow399 {
+    
+    animation: pulse 7s linear infinite 2.66s;
+  }
+  .pulse-heartBeatContainer .follow400 {
+    
+    animation: pulse 7s linear infinite 2.666666666666667s;
+  }
+  @-moz-keyframes pulse {
+    0% {
+      transform: translate(0, 0);
+    }
+    18% {
+      transform: translate(50px, 0);
+    }
+    20% {
+      transform: translate(60px, 35px);
+    }
+    22% {
+      transform: translate(70px, -55px);
+    }
+    24% {
+      transform: translate(80px, 55px);
+    }
+    26% {
+      transform: translate(90px, -35px);
+    }
+    28% {
+      transform: translate(100px, 0);
+    }
+    30% {
+      transform: translate(150px, 0);
+    }
+    32% {
+      transform: translate(160px, 35px);
+    }
+    34% {
+      transform: translate(170px, -55px);
+    }
+    36% {
+      transform: translate(180px, 55px);
+    }
+    38% {
+      transform: translate(190px, -35px);
+    }
+    40% {
+      transform: translate(200px, 0);
+    }
+    60% {
+      transform: translate(250px, 0);
+    }
+    62% {
+      transform: translate(260px, 35px);
+    }
+    64% {
+      transform: translate(270px, -55px);
+    }
+    66% {
+      transform: translate(280px, 55px);
+    }
+    68% {
+      transform: translate(290px, -35px);
+    }
+    70% {
+      transform: translate(300px, 0);
+    }
+    72% {
+      transform: translate(350px, 0);
+    }
+    74% {
+      transform: translate(360px, 35px);
+    }
+    76% {
+      transform: translate(370px, -55px);
+    }
+    78% {
+      transform: translate(380px, 55px);
+    }
+    80% {
+      transform: translate(390px, -35px);
+    }
+    82% {
+      transform: translate(400px, 0);
+    }
+    100% {
+      transform: translate(450px, 0);
+    }
+  }
+  @-webkit-keyframes pulse {
+      
+    0% {
+      transform: translate(0, 0);
+    }
+    18% {
+      transform: translate(50px, 0);
+    }
+    20% {
+      transform: translate(60px, 35px);
+    }
+    22% {
+      transform: translate(70px, -55px);
+    }
+    24% {
+      transform: translate(80px, 55px);
+    }
+    26% {
+      transform: translate(90px, -35px);
+    }
+    28% {
+      transform: translate(100px, 0);
+    }
+    30% {
+      transform: translate(150px, 0);
+    }
+    32% {
+      transform: translate(160px, 35px);
+    }
+    34% {
+      transform: translate(170px, -55px);
+    }
+    36% {
+      transform: translate(180px, 55px);
+    }
+    38% {
+      transform: translate(190px, -35px);
+    }
+    40% {
+      transform: translate(200px, 0);
+    }
+    60% {
+      transform: translate(250px, 0);
+    }
+    62% {
+      transform: translate(260px, 35px);
+    }
+    64% {
+      transform: translate(270px, -55px);
+    }
+    66% {
+      transform: translate(280px, 55px);
+    }
+    68% {
+      transform: translate(290px, -35px);
+    }
+    70% {
+      transform: translate(300px, 0);
+    }
+    72% {
+      transform: translate(350px, 0);
+    }
+    74% {
+      transform: translate(360px, 35px);
+    }
+    76% {
+      transform: translate(370px, -55px);
+    }
+    78% {
+      transform: translate(380px, 55px);
+    }
+    80% {
+      transform: translate(390px, -35px);
+    }
+    82% {
+      transform: translate(400px, 0);
+    }
+    100% {
+      transform: translate(450px, 0);
+    }
+  }
+  @-o-keyframes pulse {
+    0% {
+      transform: translate(0, 0);
+    }
+    18% {
+      transform: translate(50px, 0);
+    }
+    20% {
+      transform: translate(60px, 35px);
+    }
+    22% {
+      transform: translate(70px, -55px);
+    }
+    24% {
+      transform: translate(80px, 55px);
+    }
+    26% {
+      transform: translate(90px, -35px);
+    }
+    28% {
+      transform: translate(100px, 0);
+    }
+    30% {
+      transform: translate(150px, 0);
+    }
+    32% {
+      transform: translate(160px, 35px);
+    }
+    34% {
+      transform: translate(170px, -55px);
+    }
+    36% {
+      transform: translate(180px, 55px);
+    }
+    38% {
+      transform: translate(190px, -35px);
+    }
+    40% {
+      transform: translate(200px, 0);
+    }
+    60% {
+      transform: translate(250px, 0);
+    }
+    62% {
+      transform: translate(260px, 35px);
+    }
+    64% {
+      transform: translate(270px, -55px);
+    }
+    66% {
+      transform: translate(280px, 55px);
+    }
+    68% {
+      transform: translate(290px, -35px);
+    }
+    70% {
+      transform: translate(300px, 0);
+    }
+    72% {
+      transform: translate(350px, 0);
+    }
+    74% {
+      transform: translate(360px, 35px);
+    }
+    76% {
+      transform: translate(370px, -55px);
+    }
+    78% {
+      transform: translate(380px, 55px);
+    }
+    80% {
+      transform: translate(390px, -35px);
+    }
+    82% {
+      transform: translate(400px, 0);
+    }
+    100% {
+      transform: translate(450px, 0);
+    }
+  }
+  @keyframes pulse {
+    
+    0% {
+      transform: translate(0, 0);
+    }
+    18% {
+      transform: translate(250px, 0);
+    }
+    20% {
+      transform: translate(290px, 135px);
+    }
+    22% {
+      transform: translate(320px, -155px);
+    }
+    24% {
+      transform: translate(350px, 155px);
+    }
+    26% {
+      transform: translate(380px, -135px);
+    }
+    28% {
+      transform: translate(410px, 0);
+    }
+    30% {
+      transform: translate(660px, 0);
+    }
+    32% {
+      transform: translate(690px, 135px);
+    }
+    34% {
+      transform: translate(720px, -155px);
+    }
+    36% {
+      transform: translate(750px, 155px);
+    }
+    38% {
+      transform: translate(780px, -135px);
+    }
+    40% {
+      transform: translate(810px, 0);
+    }
+    60% {
+      transform: translate(1060px, 0);
+    }
+    62% {
+      transform: translate(1090px, 135px);
+    }
+    64% {
+      transform: translate(1120px, -155px);
+    }
+    66% {
+      transform: translate(1150px, 155px);
+    }
+    68% {
+      transform: translate(1180px, -135px);
+    }
+    70% {
+      transform: translate(1210px, 0);
+    }
+    72% {
+      transform: translate(1460px, 0);
+    }
+    74% {
+      transform: translate(1490px, 135px);
+    }
+    76% {
+      transform: translate(1520px, -155px);
+    }
+    78% {
+      transform: translate(1550px, 155px);
+    }
+    80% {
+      transform: translate(1580px, -135px);
+    }
+    82% {
+      transform: translate(1610px, 0);
+    }
+    100% {
+      transform: translate(1860px, 0);
+    }
+  }
+  @-moz-keyframes heartbeat {
+    0% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    20% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    22% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    24% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    26% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    28% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    30% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    32% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    34% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    36% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    38% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    50% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    62% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    64% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    66% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    68% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    70% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    74% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    76% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    78% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    80% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    82% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    100% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+  }
+  @-webkit-keyframes heartbeat {
+    0% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    20% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    22% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    24% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    26% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    28% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    30% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    32% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    34% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    36% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    38% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    50% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    62% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    64% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    66% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    68% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    70% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    74% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    76% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    78% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    80% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    82% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    100% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+  }
+  @-o-keyframes heartbeat {
+    0% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    20% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    22% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    24% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    26% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    28% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    30% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    32% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    34% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    36% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    38% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    50% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    62% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    64% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    66% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    68% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    70% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    74% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    76% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    78% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    80% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    82% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    100% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+  }
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    20% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    22% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    24% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    26% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    28% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    30% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    32% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    34% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    36% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    38% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    50% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+    62% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    64% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    66% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    68% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    70% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    74% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    76% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    78% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    80% {
+      transform: scale(1.2) rotate(45deg) translateY(100%);
+    }
+    82% {
+      transform: scale(1) rotate(45deg) translateY(100%);
+    }
+    100% {
+      transform: scale(1.1) rotate(45deg) translateY(100%);
+    }
+  }
+  
