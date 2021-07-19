@@ -3,20 +3,42 @@
     background-color: #FF4B4B;
     height: 60px;
     font-size: 20px;
+    font-weight: bold;
 }
 .left-options > .first-options{
-    padding-left: 5%;
+    padding-left: 40px;
 }
 .right-options > .last-options{
-    padding-right: 5%;
+    padding-right: 40px;
 }
 .left-options > .options{
-    padding-left: 5%;
+    padding-left: 40px;
 }
 .right-options > .options{
-    padding-right: 5%;
+    padding-right: 40px;
 }
 .logo{
     z-index: 1;
-    left: 47.5%;
+    top: -60px;
+    /* left: 47.5%; */
+}
+.dropdown-box{
+    width: fit-content;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: -120px;
+    display: none;
+    z-index: 1;
+    position: relative;
+    font-weight: 600;
+    height: fit-content;
+}
+.forum-main:hover .forum-dropdown{
+    display: block;
+}
+.dropdown-options{
+    padding: 12px 16px;
+}
+.dropdown-options:hover{
+    background-color: rgba(0,0,0,0.05);;
 }
