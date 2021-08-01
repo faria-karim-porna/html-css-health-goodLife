@@ -1,0 +1,45 @@
+/* to create the center logo modify the .navbar-brand class */
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2px;
+}
+
+.navbar-custom {
+    height: 45px;
+    background-color: #FF4B4B; 
+}
+.nav-link{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.905);
+}
+.dropdown-item{
+    color: #FF4B4B;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.dropdown-item:hover{
+    color: #FF4B4B;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.show > ul > li > a{
+    color: #FF4B4B;
+}
+.show > ul > li > a:hover{
+    color: #FF4B4B;
+}
+.btn-custom{
+    border: none !important;
+}
+/* small devices (portrait phones, tablets) */
+@media (max-width: 991.98px) {
+    .show{
+        border: none;
+    }
+}

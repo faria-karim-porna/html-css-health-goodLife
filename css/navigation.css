@@ -20,7 +20,6 @@
 .logo{
     z-index: 1;
     top: -60px;
-    /* left: 47.5%; */
 }
 .dropdown-box{
     width: fit-content;
@@ -42,3 +41,12 @@
 .dropdown-options:hover{
     background-color: rgba(0,0,0,0.05);;
 }
+
+/* small devices (portrait phones) */
+/* @media (max-width: 767.98px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) { ... } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
